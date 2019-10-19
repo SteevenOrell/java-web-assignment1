@@ -1,4 +1,4 @@
-package authentication;
+package servlets;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -40,7 +40,7 @@ public class LoginServlet extends HttpServlet {
 		admin.setUsername(username);
 		admin.setPassword(password);
 		
-		admin.authenticate(username, password, request,response);
+		admin.authen(username, password, request,response);
 		
 	}
 

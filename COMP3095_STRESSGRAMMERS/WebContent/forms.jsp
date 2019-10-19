@@ -17,7 +17,7 @@
 <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
 </head>
 <body>
-	<form method="post" action="">
+	<form method="post" action="LoginServlet">
 		<p>Username: <input type="email" name="adminEmail" placeholder="Enter username"></p>
 		<p>Password: <input type="password" name="adminPassword"placeholder="Enter password"></p>
 
